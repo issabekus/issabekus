@@ -1,0 +1,93 @@
+/* Сброс стандартных стилей */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+}
+
+/* Фон */
+.background {
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Логотип */
+.logo h1 {
+    font-size: 3rem;
+    color: white;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    margin-bottom: 30px;
+}
+
+/* Стили для логотипа */
+.logo img {
+    width: 190px; /* Размер логотипа */
+    height: auto; /* Автоматическая высота для пропорций */
+    display: block; /* Убирает лишние отступы */
+    margin: 10px auto 80px auto; /* Центрирование логотипа */
+}
+
+/* Кнопки */
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    width: 90%;
+    max-width: 400px;
+}
+
+/* Цвет текста на кнопках */
+.button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 100px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(128, 128, 128); /* Цвет текста на кнопках */
+    text-align: left;
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s;
+}
+
+/* Эффекты при наведении */
+.button:hover {
+    transform: translateY(-3px);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Размер PNG иконок внутри кнопок с ограничением */
+.button img {
+    max-width: 60px !important;
+    max-height: 60px !important;
+}
+/* Индивидуальные стили кнопок */
+.youtube {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.tiktok {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.telegram {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.instagram {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.snake {
+    background-color: rgba(255, 255, 255, 0.7);
+}
